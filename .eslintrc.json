@@ -1,0 +1,15 @@
+{
+  "extends": [
+    "eslint:recommended",
+    "prettier",
+    "plugin:prettier/recommended"
+  ],
+  "env": {
+    "jest": true,
+    "es6": true,
+    "node": true
+  },
+  "rules": {
+    "no-console": "warn"
+  }
+}
