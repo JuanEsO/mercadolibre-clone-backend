@@ -28,8 +28,8 @@ async function searchItems(query) {
     const items = results.map((item) => productSerializer(item));
     return {
       authors: {
-        name: 'Javier',
-        lastname: 'Gonzalez',
+        name: 'Juan Esteban',
+        lastname: 'Ortiz',
       },
       categories: categories,
       items,
@@ -51,8 +51,8 @@ async function getItemById(id) {
 
     return {
       authors: {
-        name: 'Javier',
-        lastname: 'Gonzalez',
+        name: 'Juan Esteban',
+        lastname: 'Ortiz',
       },
       item: productSerializer({...itemData, description: description.data.plain_text}),
     };
